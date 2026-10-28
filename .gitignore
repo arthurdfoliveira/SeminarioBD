@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset bruto do Kaggle
+dados/brutos/
+*.zip
+
+# Windows
+Thumbs.db
+desktop.ini
