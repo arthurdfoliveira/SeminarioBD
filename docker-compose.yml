@@ -1,0 +1,13 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: seminario-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-dados:/data/db
+      - ./dados/processados:/dados:ro
+      - ./docker/importar.sh:/docker-entrypoint-initdb.d/importar.sh:ro
+
+volumes:
+  mongo-dados:
