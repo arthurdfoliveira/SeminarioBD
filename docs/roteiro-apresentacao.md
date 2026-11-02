@@ -7,11 +7,11 @@ ou algum imprevisto na demo.
 
 | Parte | Quem | Tempo | Conteúdo |
 |---|---|---|---|
-| 1. Fundamentação teórica | Artur | 6 min | O que é NoSQL e o modelo orientado a documentos, JSON/BSON, esquema flexível, vantagens, desvantagens e casos de uso no mercado |
-| 2. O SGBD: MongoDB | Bruno | 4 min | Banco, coleção e documento (comparando com tabela e linha), `_id`, BSON, arquitetura básica: `mongod`, drivers, replica set e sharding |
-| 3. Modelagem e ingestão | Bruno | 4 min | Dataset TMDB 5000 (2 CSVs), conversão com o `converter.py`, decisões de modelagem, importação com Docker / Compass / mongoimport |
-| 4. Demonstração prática | Matheus | 9 min | CRUD, consultas complexas e índices, rodando os playgrounds ao vivo |
-| 5. Conclusão | Artur | 2 min | Resumo do que foi mostrado, quando usar e quando não usar MongoDB, abrir para perguntas |
+| 1. Fundamentação teórica (slides 1-6) | Artur | 6 min | O que é NoSQL e o modelo orientado a documentos, JSON/BSON, esquema flexível, vantagens, desvantagens e casos de uso no mercado |
+| 2. O SGBD: MongoDB (slides 7-9) | Bruno | 4 min | Banco, coleção e documento (comparando com tabela e linha), `_id`, BSON, arquitetura básica: `mongod`, drivers, replica set e sharding |
+| 3. Modelagem e ingestão (slides 10-13) | Pablo | 4 min | Dataset TMDB 5000 (2 CSVs), conversão com o `converter.py`, decisões de modelagem, importação com Docker / Compass / mongoimport |
+| 4. Demonstração prática (slides 14-18) | Matheus | 9 min | CRUD, consultas complexas e índices, rodando os playgrounds ao vivo |
+| 5. Conclusão (slides 19-20) | Artur | 2 min | Resumo do que foi mostrado, quando usar e quando não usar MongoDB, abrir para perguntas |
 | **Total** | | **25 min** | |
 
 Se o tempo apertar, cortar na demo: pular R3, R5, Q4 e Q6, e mostrar o I5 (índice de
@@ -39,7 +39,7 @@ texto) só se sobrar tempo.
   comentar, não usamos no trabalho).
 - Ferramentas: `mongosh`, Compass, extensão do VS Code.
 
-**3. Modelagem e ingestão (Bruno)**
+**3. Modelagem e ingestão (Pablo)**
 - O dataset vem em `tmdb_5000_movies.csv` e `tmdb_5000_credits.csv`, com gêneros, elenco
   e equipe guardados como texto JSON dentro das células.
 - O `converter.py` junta os dois arquivos e gera um documento por filme (4803 no total).

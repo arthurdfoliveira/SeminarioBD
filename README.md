@@ -13,6 +13,7 @@ Trabalho do Seminário de Banco de Dados NoSQL - CESAR School, prof. Eduardo Arr
 - Artur Oliveira
 - Bruno Holanda
 - Matheus Fialho
+- Pablo Coelho
 
 ## Estrutura de pastas
 
