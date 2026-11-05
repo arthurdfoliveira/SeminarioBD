@@ -159,6 +159,7 @@ dados também quase nunca mudam depois que o filme é lançado, então a duplica
 um ator aparece em vários filmes) não dá trabalho para manter. E dá para indexar campos
 dentro de arrays, como `elenco.ator`, o que deixa a busca por ator rápida.
 
+
 **Por que o elenco foi limitado a 10.** No CSV muitos filmes têm dezenas de pessoas no
 elenco. Para as consultas do trabalho só os atores principais importam, e guardar todos
 deixaria os documentos grandes sem necessidade. Ficamos com os 10 primeiros pela ordem de
